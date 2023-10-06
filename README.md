@@ -1,25 +1,50 @@
-# Connect Four AI Implementation
+# Frontend Mentor - Connect Four game solution
 
-This project was done as part of the CSE4082 - Introduction to Artificial Intelligence Course at Marmara University (Instructor: Ali Haydar Özer).
+This is a solution to the [Connect Four game challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/connect-four-game-6G8QVH923s). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-## About the Project
+## Table of contents
 
-You can find the details of the project under Project Files folder.
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
 
-## Usage
+**Note: Delete this note and update the table of contents based on what sections you keep.**
 
-This is a Connect Four game AI implementation using minimax algorithm and three different evaluation heuristics to be used in minimax. You can play human vs human, human vs AI and AI vs AI. You can adjust the number of plies of the AI players (depth of minimax) and the evaluation heuristic they use.
+## Overview
 
-It has a 7x8 game board unlike the standard Connect Four game, but you can just change the initialBoard array at index.js to have the board with the dimensions you need.
+### The challenge
 
-## To Run The Code
+Users should be able to:
 
-```txt
-git clone https://github.com/barishazar3431/connect-four-game.git
+- View the game rules
+- Play a game of Connect Four against another human player (alternating turns on the same computer)
+- View the optimal layout for the interface depending on their device's screen size
+- See hover and focus states for all interactive elements on the page
+- **Bonus**: See the discs animate into their position when a move is made
+- **Bonus**: Play against the computer
 
-cd connect-four-game
+### Screenshot
 
-npm install
+![](./preview.png)
 
-node src/index.js
-```
+### Links
+
+- Solution URL: [Add solution URL here](https://github.com/aleksFedotov/connect-four-game)
+- Live Site URL: [Add live site URL here](https://aleksfedotov.github.io/password-generator)
+
+## My process
+
+### Built with
+
+- [React](https://reactjs.org/) - JS library
+- [ReduxToolkit](https://redux-toolkit.js.org//) - State container
+- [Styled Components](https://styled-components.com/) - For styles
+
+### What I learned
+
+Implemetation of minimax algorithm with alpha-beta pruning
+Using for CPU-intensive tasks such as minimax algorithm with high depth
